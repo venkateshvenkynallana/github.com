@@ -12,4 +12,7 @@ public class App {
     public int  sum(int x, int y) {
     	return x=+y;
     }
+    public int substitute(int x,int y) {
+    	return x=-y;
+    }
 }

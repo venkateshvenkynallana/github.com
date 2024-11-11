@@ -26,4 +26,14 @@ public class AppTest {
     	int actual = a.sum(x, y);
     	assertEquals(expected, actual);
     }
+    @Test
+    public void testSubstitutePositiveValues() {
+    	App a=new App();
+    	int x=30;
+    	int y=23;
+    	int expected=7;
+    	int actual=a.substitute(x, y);
+    	assertEquals(expected,actual);
+    	
+    }
 }
